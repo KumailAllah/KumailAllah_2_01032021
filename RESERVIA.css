@@ -359,7 +359,7 @@ nav a:hover{
 }
 
 #hotel_le_soleil {
-  background-image: url("emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+  background-image: url("IMAGE/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -371,7 +371,7 @@ nav a:hover{
 }
 
 #tout_bleu {
-  background-image: url("febrian-zakaria-sjvU0THccQA-unsplash 2.jpg");
+  background-image: url("IMAGE/febrian-zakaria-sjvU0THccQA-unsplash 2.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -450,12 +450,10 @@ nav a:hover{
   height: 85%;
 }
 
-#vieux_port {
-  background-image: url("reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
-  background-position: center;
-  background-size: cover;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
+.border_image_1 img{
+
+  width: 100%;
+  height: 100%;
 }
 
 .border_texte_1 {
@@ -480,12 +478,12 @@ nav a:hover{
   border-top-right-radius: 25px;
   width: 100%;
   height: 75%;
+  object-fit: cover;
 }
 
-#fort {
-  background-image: url("paul-hermann-QFTrLdQIRhI-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
+.image img{
+  width: 100%;
+  height: 100%;
 }
 
 .border_image_texte_2 {
@@ -511,6 +509,12 @@ nav a:hover{
   border-top-right-radius: 25px;
   width: 100%;
   height: 75%;
+  object-fit: cover;
+}
+
+.bordureimage3 img{
+  width: 100%;
+  height: 100%;
 }
 
 #bordureimage33 {
@@ -554,8 +558,12 @@ nav a:hover{
   border-top-left-radius: 25px;
   width: 100%;
   height: 85%;
+  object-fit: cover;
 }
-
+.bordureimage32 img{
+  width: 100%;
+  height: 100%;
+}
 .Activites_texte_3 {
   border: 1px solid whitesmoke;
   border-bottom-left-radius: 25px;
@@ -565,11 +573,7 @@ nav a:hover{
 }
 
 
-#loup {
-  background-image: url(IMAGE/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
-  background-size: cover;
-  background-position: center;
-}
+
 
 .Activites_image_4 {
   width: 85%;
@@ -625,16 +629,14 @@ nav a:hover{
   height: 80%;
 }
 
-#parc {
-  background-image: url("florian-wehde-xW9e8gdotxI-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
+.image44 img{
+  width: 100%;
+  height: 100%;
 }
 
-#dame {
-  background-image: url("lena-paulin-wH2-EJoDcV0-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
+.image55 img{
+  width: 100%;
+  height: 100%;
 }
 
 /*-- Le pied de page --*/
@@ -973,3 +975,8 @@ hover + border top navigation  (FAIT)
 -rajouter les etoiles (FAIT)
 - changer police texte parc (FAIT)
 -finir responsive tablette
+
+
+-terminer les .Filtres
+-remettre les images et en hmtl aussi
+-commencer le mode mobile
