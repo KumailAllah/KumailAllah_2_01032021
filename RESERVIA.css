@@ -99,7 +99,7 @@ nav a:hover{
 /*-- Les filtres --*/
 
 .Filtres{
-  border: 1px solid black;
+  font-size: 1em;
   width: 70%;
   display: flex;
   flex-direction: row;
@@ -107,9 +107,9 @@ nav a:hover{
   margin: 20px;
 }
 
+
 .filtre2{
   display: flex;
-  border: 1px solid black;
   flex-direction: row;
   width: 90%;
   justify-content: space-between;
@@ -118,18 +118,20 @@ nav a:hover{
 
 .Filtre_enfant{
   display: flex;
-  border: 1px solid black;
+  border: 1px solid #F2F2F2;
   justify-content: space-between;
   align-items: center;
-  border-top-right-radius: 15%;
+  border-radius: 30px;
+  padding: 5px;
+  width: 140px;
 }
 
 .Filtre_enfant i{
   color: blue;
   background-color: rgb(213, 238, 241);
-  border: 1px solid red;
+  border: 1px solid rgb(213, 238, 241);
   border-radius: 85%;
-  height: 30px;
+  height: 35px;
   width: 40px;
   display: flex;
   justify-content: center;
@@ -161,7 +163,6 @@ nav a:hover{
 .hebergements_marseille {
   display: flex;
   flex-direction: column;
-  border: 6px solid #f2f2f2;
   border-radius: 25px;
   background-color: #f2f2f2;
   width: 60%;
@@ -179,10 +180,10 @@ nav a:hover{
 .hebergement {
   border: 2px solid white;
   background-color: white;
-  border-top-left-radius: 10%;
-  border-top-right-radius: 10%;
-  border-bottom-left-radius: 10%;
-  border-bottom-right-radius: 10%;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
   padding-left: 5px;
   padding-top: 5px;
   padding-right: 5px;
@@ -193,8 +194,8 @@ nav a:hover{
 }
 
 .hebergement_image {
-  border-top-left-radius: 10%;
-  border-top-right-radius: 10%;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
   height: 65%;
   background-size: cover;
   background-position: center;
@@ -246,22 +247,22 @@ nav a:hover{
 
 
 #Cannebiere {
-  background-image: url("marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+  background-image: url("IMAGE/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
 }
 #Fred {
-  background-image: url("fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+  background-image: url("IMAGE/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
 }
 #Reisetopia {
-  background-image: url("reisetopia-B8WIgxA_PFU-unsplash.jpg");
+  background-image: url("IMAGE/reisetopia-B8WIgxA_PFU-unsplash.jpg");
 }
 #Annie {
-  background-image: url("annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+  background-image: url("IMAGE/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
 }
 #Nicate {
-  background-image: url("nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+  background-image: url("IMAGE/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
 }
 #Febrian {
-  background-image: url("febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+  background-image: url("IMAGE/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
 }
 
 .hebergement_texte {
@@ -365,7 +366,7 @@ nav a:hover{
 }
 
 #au_coeur {
-  background-image: url("aw-creative-VGs8z60yT2c-unsplash 2.jpg");
+  background-image: url("IMAGE/aw-creative-VGs8z60yT2c-unsplash 2.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -451,7 +452,8 @@ nav a:hover{
 }
 
 .border_image_1 img{
-
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
   width: 100%;
   height: 100%;
 }
@@ -482,6 +484,8 @@ nav a:hover{
 }
 
 .image img{
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
   width: 100%;
   height: 100%;
 }
@@ -513,6 +517,8 @@ nav a:hover{
 }
 
 .bordureimage3 img{
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
   width: 100%;
   height: 100%;
 }
@@ -561,6 +567,8 @@ nav a:hover{
   object-fit: cover;
 }
 .bordureimage32 img{
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
   width: 100%;
   height: 100%;
 }
@@ -630,11 +638,15 @@ nav a:hover{
 }
 
 .image44 img{
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
   width: 100%;
   height: 100%;
 }
 
 .image55 img{
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
   width: 100%;
   height: 100%;
 }
@@ -663,111 +675,120 @@ footer h4 {
 
 @media all and (max-width: 480px) {
   #bloc-page {
-    width: auto;
-  }
-
-  nav {
-    border: 1px solid black;
-    color: red;
-  }
-
-  footer {
-    display: flex;
-    flex-direction: column;
-  }
-
-  footer a {
-    color: black;
-    text-decoration: none;
-    font-weight: lighter;
-  }
-
-  .lespluspopulaires {
-    background-color: coral;
     width: 100%;
-    height: 600px;
-    display: flex;
-    flex-direction: column;
-    margin: 5%
   }
 
-  .lesplus_populaires{
-  }
-
-  .bloc {
-    display: flex;
+  .bloc{
     flex-direction: column-reverse;
-    align-items: center;
-  }
-
-  .bloc_1 {
-    flex-direction: column;
-    width: 100%;
-    height: 100px;
   }
 
   .bloc-page {
     display: flex;
     flex-direction: column;
-  }
-  .parent {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
+    justify-content: center;
   }
 
-  .hebergements_marseille {
+  .nav {
+    border: 1px solid black;
+  }
+
+  .Introduction h3{
+    font-size: 30px;
+  }
+
+  .Introduction h5{
+    font-size: 20px;
+    font-weight: lighter;
+  }
+
+  .barre{
+    justify-content: center;
+  }
+
+  .filtre2{
+    flex-direction: column;;
+  }
+
+  .hebergements_marseille{
+    width: 100%;
+    border-radius: 0;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+  }
+
+  .parents_hebergements{
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .hebergement{
+    width: 100%;
+    height: 190px;
+  }
+
+  
+
+
+  footer h4{
+    justify-content: center;
+    align-items: center;
+  } 
+
+  
+
+  footer {
+    
+    align-items: center;
+    flex-direction: column;
+  }
+
+  footer a {
+    justify-content: center;
+    text-decoration: none;
+    font-weight: lighter;
+  }
+
+  .lespluspopulaires {
+    background-color: whitesmoke;
+    border-radius: 0;
+    width: 100%;
+    height: 600px;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+
+  .Activites_a_Marseille{
     width: 100%;
     height: auto;
   }
 
-  .parents_hebergements {
-    flex-wrap: nowrap;
+  .parent{
+    width: 100%;
+    height: auto;
     flex-direction: column;
   }
 
-  .hebergement {
-    width: 80%;
-    height: 200px;
-  }
-
-  .hotel_images {
-    height: 100%;
-  }
-
-  .Activites_1 {
+  .Activites_1{
+    width: 100%;
+    height: auto;
     flex-direction: column;
-    width: 100%;
-  }
-  .border_texte_1 {
-    width: 100%;
   }
 
-  .bloc_2 {
+  .Activites_2{
+    width: 100%;
+    height: auto;
     flex-direction: column;
+  }
+
+  .bloc_1{
     width: 100%;
   }
 
-  .Activites_image_2 {
-    width: 100%;
-  }
 
-  .Activites_2 {
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .bloc_3 {
-    width: 100%;
-  }
-
-  .bloc_4 {
-    width: 100%;
-  }
-
-  .activites_a_Marseille {
-    height: 100%;
-  }
+  
 }
 
 @media all and (min-width: 700px) and (max-width: 1024px) {
@@ -960,23 +981,9 @@ footer h4 {
 }
 
 
-petit bouton rechercher + logo barre rechercher
-petit logo  filtre
-petit logo 500 logement (FAIT)
-petit logo a droite .lesplpopulaires (FAIT)
-les etoiles bleu et grise en dessous chaque hotel (a faire)
-les prix sont en gras (FAIT)
-s'inscrire en bleu en gras (FAIT)
-hover + border top navigation  (FAIT)
 
-
--ameliorer la barre de recherche (FAIT)
--ameliorer filtre + logo + border logo etc
--rajouter les etoiles (FAIT)
-- changer police texte parc (FAIT)
--finir responsive tablette
 
 
 -terminer les .Filtres
--remettre les images et en hmtl aussi
+-remettre les images et en hmtl aussi (FAIT)
 -commencer le mode mobile
