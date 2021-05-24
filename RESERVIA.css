@@ -674,6 +674,11 @@ footer h4 {
 }
 
 @media all and (max-width: 480px) {
+  
+  .logo img{
+    height: 50px;
+  }
+  
   #bloc-page {
     width: 100%;
   }
@@ -785,8 +790,20 @@ footer h4 {
 
   .bloc_1{
     width: 100%;
+    height: 250px;
   }
-
+  .bloc_2{
+    width: 100%;
+    height: 550px;
+  }
+  .bloc_3{
+    width: 100%;
+    height: 250px;
+  }
+  .bloc_4{
+    width: 100%;
+    height: 550px;
+  }
 
   
 }
