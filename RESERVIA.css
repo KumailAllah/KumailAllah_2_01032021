@@ -14,10 +14,8 @@ body {
 
 /*-- Le logo de la page --*/
 .logo img {
-  width: 100%;
-}
-.logo {
-  width: 10%;
+  width: 100px;
+
 }
 
 /*-- Bouton de recherche --*/
@@ -35,6 +33,12 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.nav_a{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
 }
 
 /*-- La navigation --*/
@@ -98,6 +102,13 @@ nav a:hover{
 
 /*-- Les filtres --*/
 
+.A{
+  display: flex;
+  justify-content: space-around;
+}
+.B{
+  display: flex;
+}
 .Filtres{
   font-size: 1em;
   width: 70%;
@@ -112,7 +123,6 @@ nav a:hover{
   display: flex;
   flex-direction: row;
   width: 90%;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -674,11 +684,55 @@ footer h4 {
 }
 
 @media all and (max-width: 480px) {
-  
+  header{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo{
+    height: 0;
+  }
   .logo img{
-    height: 50px;
+    width: 120px;
+    
+  }
+
+  nav{
+    display: flex;
+    width: 100%;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    height: 120px;
+  }
+  .nav_a{
+
+    justify-content: space-around;
+
+  }
+
+  .Filtres{
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .filtres{
+    width: 90%;
+  }
+
+  .A{
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .b{
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
   }
   
+  
+
+  
+
   #bloc-page {
     width: 100%;
   }
@@ -711,7 +765,7 @@ footer h4 {
   }
 
   .filtre2{
-    flex-direction: column;;
+    flex-direction: column;
   }
 
   .hebergements_marseille{
