@@ -670,7 +670,6 @@ footer {
   text-align: justify;
   display: flex;
   justify-content: space-around;
-
   align-items: center;
 }
 
@@ -680,8 +679,8 @@ footer ul {
 
 footer h4 {
   display: flex;
-  flex-direction: left;
 }
+
 
 @media all and (max-width: 480px) {
   header{
@@ -886,10 +885,6 @@ footer h4 {
       width: 90%;
     }
 
-    .hotel_images {
-      
-    }
-
     .hotel_texte{
         height: 100%;
     }
@@ -1050,12 +1045,3 @@ footer h4 {
     }
 
 }
-
-
-
-
-
--terminer les .Filtres
--remettre les images et en hmtl aussi (FAIT)
--commencer le mode mobile
--bordel
