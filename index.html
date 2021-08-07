@@ -20,8 +20,8 @@
             </div>
             <nav>
                 <div class="nav_a">
-                    <a href="#">Hébergements</a>
-                    <a href="#">Activités</a>
+                    <a href="#ancreHebergement">Hébergements</a>
+                    <a href="#ancreActivite">Activités</a>
                 </div>
 
                 <a href="#"><strong>S'inscrire</strong></a>
@@ -31,7 +31,7 @@
         <!--Barre de recherche + Titre-->
         <div class="Introduction">
             <h3>Trouvez votre hébergement pour des vacances de rêve</h3>
-            <h5>En plein centre ville ou en pleine nature</h5>
+            <h4>En plein centre ville ou en pleine nature</h4>
         </div>
 
 
@@ -90,9 +90,10 @@
        
         <!--Première section (Hébergements à Marseille et Activité à Marseille)-->
         <div class="bloc">
-            <section class="hebergements_marseille">
+            <section class="hebergements_marseille" id="ancreHebergement">
                 <h2>Hébergement à Marseille</h2>
                 <div class="parents_hebergements">
+
                     <div class="hebergement">
                         <div class="hebergement_image" id="Cannebiere">
                             
@@ -100,7 +101,7 @@
                         </div>
                         <div class="hebergement_texte">
                             <h3>Auberge la Cannebière</h3>
-                            <h3>Nuit à partir de <strong>25€</strong></h3>
+                            <p>Nuit à partir de <strong>25€</strong></p>
                             <div class="etoilee">
                                 <div class="couleur">
                                     <i class="fas fa-star"></i>
@@ -122,7 +123,7 @@
                         </div>
                         <div class="hebergement_texte">
                             <h3>Hôtel du port</h3>
-                            <h3>Nuit à partir de <strong>52€</strong></h3>
+                            <p>Nuit à partir de <strong>52€</strong></p>
                             <div class="etoilee">
                                 <div class="couleur">
                                     <i class="fas fa-star"></i>
@@ -141,7 +142,7 @@
                         </div>
                         <div class="hebergement_texte">
                             <h3>Hôtel Les mouettes</h3>
-                            <h3>Nuit à partir de <strong>25€</strong></h3>
+                            <p>Nuit à partir de <strong>25€</strong></p>
                             <div class="etoilee">
                                 <div class="couleur">
                                     <i class="fas fa-star"></i>
@@ -162,7 +163,7 @@
                         </div>
                         <div class="hebergement_texte">
                             <h3>Hôtel de la mer</h3>
-                            <h3>Nuit à partir de <strong>46€</strong></h3>
+                            <p>Nuit à partir de <strong>46€</strong></p>
                             <div class="etoilee">
                                 <div class="couleur">
                                     <i class="fas fa-star"></i>
@@ -184,7 +185,7 @@
                         </div>
                         <div class="hebergement_texte">
                             <h3>Auberge Le Panier</h3>
-                            <h3>Nuit à partir de <strong>23€</strong></h3>
+                            <p>Nuit à partir de <strong>23€</strong></p>
                             <div class="etoilee">
                                 <div class="couleur">
                                     <i class="fas fa-star"></i>
@@ -207,7 +208,7 @@
                         </div>
                         <div class="hebergement_texte">
                             <h3>Hôtel chez Amina</h3>
-                            <h3>Nuit à partir de <strong>96€</strong></h3>
+                            <p>Nuit à partir de <strong>96€</strong></p>
                             <div class="etoilee">
                                 <div class="couleur">
                                     <i class="fas fa-star"></i>
@@ -315,14 +316,14 @@
     </div>
 
     <!-- Deuxième Articles Activités -->
-    <section class="Activites_a_Marseille">
+    <section class="Activites_a_Marseille" id="ancreActivite">
         <h2>Activités à Marseille</h2>
         <div class="parent">
             <div class="Activites_1">
                 <div class="bloc_1">    
                     <div class="Activites_image_1">
-                        <div class="border_image_1">
-                            <img src="IMAGE/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="">
+                        <div class="border_image_1" id="jaune">
+                            
 
                         </div>
                         <div class="border_texte_1">
@@ -412,24 +413,33 @@
     <!-- Le pied de page -->
     <footer>
                 
-            <h4>À propos</h4>
-            <ul>
-                <li><a href="#">Fonctionnement du site</a></li>
-                <li><a href="#">Conditions générales de  vente</a></li>
-                <li><a href="#">Données et confidentialité</a></li>
-            </ul>
+            
+            <div class="liste">
+                <h4>À propos</h4>
+                <ul>
+                    <li><a href="#">Fonctionnement du site</a></li>
+                    <li><a href="#">Conditions générales de  vente</a></li>
+                    <li><a href="#">Données et confidentialité</a></li>
+                </ul>
+            </div>
+        
 
             <h4>Nos hébergements</h4>
-            <ul>
-                <li><a href="#">Charte qualité</a></li>
-                <li><a href="#">Soumettre votre hôtel</a></li>
-            </ul>
+
+            <div class="liste">
+                <ul>
+                    <li><a href="#">Charte qualité</a></li>
+                    <li><a href="#">Soumettre votre hôtel</a></li>
+                </ul>
+            </div>
             
             <h4>Assistance</h4>
-            <ul>
-                <li><a href="#">Centre d'aide</a></li>
-                <li><a href="#">Nous contacter</a></li>
-            </ul>
+            <div class="liste">
+                <ul>
+                    <li><a href="#">Centre d'aide</a></li>
+                    <li><a href="#">Nous contacter</a></li>
+                </ul>
+            </div>
     
     
         
