@@ -74,7 +74,6 @@ header {
 
 .barre button{
   color: white;
-  background-color: rgb(0, 128, 255);
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   width: 100px;
@@ -98,8 +97,6 @@ nav a {
 
 nav a:hover{
   border-top: 2px solid blue;
-  color: #101010;
-  font-size: 1.5em;
   
 }
 
@@ -135,20 +132,23 @@ nav a:hover{
   justify-content: space-between;
   align-items: center;
   border-radius: 30px;
-  padding: 5px;
-  width: 140px;
+  margin: 10px;
 }
 
 .Filtre_enfant i{
-  color: blue;
-  background-color: rgb(213, 238, 241);
-  border: 1px solid rgb(213, 238, 241);
-  border-radius: 85%;
+  color: #0065fc;
+  background-color: #deebff;
+  border: 1px solid #deebff;
+  border-radius: 90%;
   height: 35px;
   width: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.Filtre_enfant i:hover{
+  color: black;
 }
 
 
@@ -162,12 +162,16 @@ nav a:hover{
 }
 
 .info i{
-  padding: 0.5%;
+  padding: 5px;
+  margin-right: 8px;
+  font-size: 0.8em;
+  border: 1px solid #e3e3e3;
+  border-radius: 100%;
 
 }
 
 .fas{
-  color: blue;
+  color: #0065fc;
   background-color: white;
   
 }
@@ -682,12 +686,19 @@ footer {
   background-color: #f2f2f2;
   text-align: justify;
   display: flex;
+  justify-content: space-between;
+  
 }
 
-.liste{
-  display: flex;
-  flex-direction: column;
+.liste h4{
   
+}
+
+
+
+
+.liste ul{
+  list-style: none;
 }
 
 
@@ -1062,15 +1073,15 @@ footer {
 1) Faire les ancres (FAIT)
 2) changement de design avec hover pour les filtre  (FAIT)
 3) utiliser Gimp avec la maquette pour trouver le code couleur  (FAIT)
-4) changer la couleur de licone i info (JARRIVE PAS) *******
+4) changer la couleur de licone i info (FAIT)
 5) changer couleur bouton rechercher (FAIT)
 6) changer couleur etoiles hotel active (FAIT)
  ) changer couleur hebergement etoile (fait)
 7) bonne taille avec taille  ********
 8) enlever le gras (nuit à partir) (FAIT)
 9) faire une ancre sur chaque vignette dhotel juste au dessus de la div  (FAIT)
-10) changer le footer le mettre en column *****
-11) enlver les padding boutons .Filtres *****
+10) changer le footer le mettre en column (PRESQUE FAIT)
+11) enlver les padding boutons .Filtres (FAIT)
 12) mettre une hauteur aux boutons icons (filtre) ******
-13) mettre des margins pour les eloigner ******
+13) mettre des margins pour les eloigner (fait)
 
