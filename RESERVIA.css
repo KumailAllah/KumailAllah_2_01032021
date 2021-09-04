@@ -49,6 +49,11 @@ header {
   display: flex;
   width: 65%;
   justify-content: space-around;
+  
+}
+
+.nav_a a{
+  color: black;
 }
 
 /*-- La navigation --*/
@@ -89,7 +94,7 @@ header {
 }
 
 nav {
-  width: 50%;
+  width: 35%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -98,14 +103,15 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: blue;
-  padding-top: 4%;
+  color: #0065fc;
+  padding-top: 15px;
   border: 2px solid white;
   
 }
 
 nav a:hover{
-  border-top: 2px solid blue;
+  border-top: 2px solid #0065fc;
+  color: #0065fc;
   
 }
 
@@ -704,14 +710,20 @@ footer {
   background-color: #f2f2f2;
   text-align: justify;
   display: flex;
-  justify-content: space-between;
   
 }
 
-.liste h4{
-  
+.apropos{
+margin-left: 40px;
 }
 
+.noshebergement{
+  margin-left: 200px;
+}
+
+.assistance{
+  margin-left: 200px;
+}
 
 
 
@@ -922,9 +934,22 @@ footer a{
       
     }
 
+    
+
+
     .hebergements_marseille{
         margin-top: 5%;
         width: 90%;
+    }
+
+    .hebergement{
+      margin-bottom: 10px;
+    }
+
+    .hebergement_image{
+      width: 660px;
+      height: 200px;
+      background-size: cover;
     }
 
     .lespluspopulaires {
@@ -943,41 +968,42 @@ footer a{
         flex-direction: column;
         align-items: center;
         
+        
+        
       }
     
-    .hebergement{
-        margin-bottom: 3%;
-        width: 90%;
-        
-    }
-
-    .hebergement_image{
-        height: 150px;
-        
-    }
-
-  
-      
-
+    
     footer{
-        
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
       
-        
     }
 
-    footer a{
-        display: flex;
-        justify-content: center;
+    footer .apropos{
+      margin: 0%;
+    
     }
 
-    footer h4{
-        display: flex;
-        justify-content: center;
+    footer .noshebergement{
+      margin: 0%;
     }
+
+    footer .assistance{
+      margin: 0%;
+    }
+
+    footer .liste apropos{
+      justify-content: center;
+    }
+
+    
+    
+    
+    
+      
+
+    
 
 
     .Activites_a_Marseille{
