@@ -766,8 +766,15 @@ footer a{
   .nav_a{
 
     justify-content: space-around;
-
+    width: 100%;
   }
+
+  .nav a:hover{
+    border-bottom: blue;
+  }
+
+
+  
 
   .Filtres{
     justify-content: flex-start;
@@ -921,7 +928,7 @@ footer a{
   
 }
 
-@media all and (min-width: 700px) and (max-width: 1024px) {
+@media all and (min-width: 500px) and (max-width: 1024px) {
 
     .bloc-page{
       width: auto;
@@ -947,7 +954,7 @@ footer a{
     }
 
     .hebergement_image{
-      width: 660px;
+      width: 100%;
       height: 200px;
       background-size: cover;
     }
@@ -966,11 +973,12 @@ footer a{
         display: flex;
         flex-wrap: nowrap;
         flex-direction: column;
-        align-items: center;
-        
-        
-        
+        align-items: center; 
       }
+
+    .parents_hebergements a{
+      width: 90%;
+    }
     
     
     footer{
@@ -1122,18 +1130,10 @@ footer a{
 
 
 
-1) Faire les ancres (FAIT)
-2) changement de design avec hover pour les filtre  (FAIT)
-3) utiliser Gimp avec la maquette pour trouver le code couleur  (FAIT)
-4) changer la couleur de licone i info (FAIT)
-5) changer couleur bouton rechercher (FAIT)
-6) changer couleur etoiles hotel active (FAIT)
- ) changer couleur hebergement etoile (fait)
-7) bonne taille avec taille  ********
-8) enlever le gras (nuit à partir) (FAIT)
-9) faire une ancre sur chaque vignette dhotel juste au dessus de la div  (FAIT)
-10) changer le footer le mettre en column (PRESQUE FAIT)
-11) enlver les padding boutons .Filtres (FAIT)
-12) mettre une hauteur aux boutons icons (filtre) ******
-13) mettre des margins pour les eloigner (fait)
+pour la tablette, mettre le cover 
+mettre flex wrap sur les filtres 
+la classe nav a a modifier pour les decoller
+
+
+
 
