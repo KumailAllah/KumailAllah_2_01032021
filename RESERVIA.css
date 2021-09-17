@@ -762,6 +762,7 @@ footer a{
     flex-direction: column-reverse;
     align-items: flex-end;
     height: 120px;
+    border-bottom: blue;
   }
   .nav_a{
 
@@ -769,9 +770,7 @@ footer a{
     width: 100%;
   }
 
-  .nav a:hover{
-    border-bottom: blue;
-  }
+  
 
 
   
@@ -843,6 +842,11 @@ footer a{
     margin-top: 5%;
   }
 
+  .hebergement_image{
+    width: 100%;
+    object-fit: cover;
+  }
+
   .parents_hebergements{
     flex-direction: column;
     width: 90%;
@@ -911,6 +915,7 @@ footer a{
   .bloc_1{
     width: 100%;
     height: 250px;
+    
   }
   .bloc_2{
     width: 100%;
