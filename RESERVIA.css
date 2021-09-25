@@ -762,7 +762,7 @@ footer a{
     flex-direction: column-reverse;
     align-items: flex-end;
     height: 120px;
-    border-bottom: blue;
+    border-bottom: grey 1px solid 
   }
   .nav_a{
 
@@ -770,8 +770,13 @@ footer a{
     width: 100%;
   }
 
-  
-
+  .nav_a a:hover{
+    border-bottom: 2px solid blue;
+    border-top: 0;
+    padding-bottom: 46px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
   
 
@@ -783,13 +788,17 @@ footer a{
     width: 90%;
   }
 
+  .filtre2{
+    align-items: flex-start;
+  }
+
   .A{
     width: 100%;
     justify-content: space-between;
   }
 
   .b{
-    width: 100%;
+    width: 60%;
     flex-direction: column;
     justify-content: flex-end;
   }
@@ -869,14 +878,19 @@ footer a{
 
   footer {
     
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
+    
   }
 
   footer a {
     justify-content: center;
     text-decoration: none;
     font-weight: lighter;
+  }
+
+  .apropos, .noshebergement, .assistance{
+    margin-left: 10px;
   }
 
   .lespluspopulaires {
