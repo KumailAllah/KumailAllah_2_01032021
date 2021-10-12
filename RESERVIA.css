@@ -93,6 +93,10 @@ header {
   width: 100px;
 }
 
+.btn_loupe{
+  display: none;
+}
+
 nav {
   width: 35%;
   display: flex;
@@ -755,10 +759,17 @@ footer a{
     width: 120px;
     
   }
-  .button{
-    <i class="fas fa-map-marker-alt"></i>
+  .btn_recherche{
+    display: none;
   }
   
+  .btn_loupe{
+    display: initial;
+  }
+
+  .btn_loupe i{
+    background-color: blue;
+  }
 
   nav{
     display: flex;
