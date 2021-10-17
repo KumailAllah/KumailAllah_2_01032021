@@ -763,13 +763,22 @@ footer a{
     display: none;
   }
   
+  }
   .btn_loupe{
     display: initial;
+    
   }
 
   .btn_loupe i{
-    background-color: blue;
+    background-color: #0065fc;
+    color: white;
+    width: 25px;
   }
+
+  .barre .btn_loupe{
+    width: 40px;
+  }
+  
 
   nav{
     display: flex;
@@ -975,6 +984,9 @@ footer a{
       
     }
 
+    .btn_recherche{
+      display: none;
+    }
     
 
 
