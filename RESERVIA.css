@@ -763,7 +763,7 @@ footer a{
     display: none;
   }
   
-  }
+  
   .btn_loupe{
     display: initial;
     
@@ -985,6 +985,10 @@ footer a{
     }
 
     .btn_recherche{
+      display: initial;
+    }
+
+    .btn_loupe{
       display: none;
     }
     
@@ -1178,8 +1182,7 @@ footer a{
 
 
 
-faiter une classe bouton, cacher l'autre bouton css et media queries apparaitre bouton
-rechercher comment cacher bouton
+
 
 
 
