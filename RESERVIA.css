@@ -78,6 +78,7 @@ header {
 
 .barre i{
   background-color: #f2f2f2ba;
+  color: black;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   width: 40px;
@@ -96,6 +97,8 @@ header {
 .btn_loupe{
   display: none;
 }
+
+
 
 nav {
   width: 35%;
@@ -198,6 +201,12 @@ nav a:hover{
   background-color: white;
   
 }
+
+.animaux_1{
+  width: 100%;
+}
+
+
 
 
 /*-- Première section (Hébergements) --*/
@@ -499,10 +508,12 @@ nav a:hover{
   border-top-right-radius: 25px;
   width: 100%;
   height: 85%;
+  
 }
 
 #jaune{
   background-image: url(IMAGE/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+  background-size: cover;
 }
 
 .border_image_1 img{
@@ -510,6 +521,7 @@ nav a:hover{
   border-top-left-radius: 25px;
   width: 100%;
   height: 100%;
+  
 }
 
 .border_texte_1 {
@@ -619,13 +631,14 @@ nav a:hover{
   border-top-left-radius: 25px;
   width: 100%;
   height: 85%;
-  object-fit: cover;
+  
 }
 .bordureimage32 img{
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 .Activites_texte_3 {
   border: 1px solid whitesmoke;
@@ -697,6 +710,7 @@ nav a:hover{
   border-top-left-radius: 25px;
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 .image55 img{
@@ -704,6 +718,7 @@ nav a:hover{
   border-top-right-radius: 25px;
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 /*-- Le pied de page --*/
@@ -746,9 +761,8 @@ footer a{
 
 
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 500px) {
   header{
-    display: flex;
     flex-direction: column;
   }
 
@@ -781,7 +795,6 @@ footer a{
   
 
   nav{
-    display: flex;
     width: 100%;
     flex-direction: column-reverse;
     align-items: flex-end;
@@ -840,7 +853,6 @@ footer a{
   }
 
   .bloc-page {
-    display: flex;
     flex-direction: column;
     justify-content: center;
   }
@@ -977,211 +989,112 @@ footer a{
       width: auto;
     }
     .bloc {
-      
-      display: flex;
       flex-direction: column-reverse;
       align-items: center;
-      
     }
-
     .btn_recherche{
       display: initial;
     }
-
     .btn_loupe{
       display: none;
     }
-    
-
-
     .hebergements_marseille{
         margin-top: 5%;
         width: 90%;
     }
-
     .hebergement{
       margin-bottom: 10px;
     }
-
     .hebergement_image{
       width: 100%;
       height: 200px;
       background-size: cover;
     }
-
     .lespluspopulaires {
       flex-direction: column;
       align-items: center;
       width: 90%;
     }
-
     .hotel_texte{
         height: 100%;
     }
-
     .parents_hebergements{
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: column;
-        align-items: center; 
-      }
-
+      flex-wrap: nowrap;
+      flex-direction: column;
+      align-items: center; 
+    }
     .parents_hebergements a{
       width: 90%;
     }
-    
-    
     footer{
-      display: flex;
       justify-content: center;
       flex-direction: column;
-      
     }
-
-    footer .apropos{
-      margin: 0%;
-    
-    }
-
-    footer .noshebergement{
+    footer .apropos, footer .noshebergement, footer .assistance {
       margin: 0%;
     }
-
-    footer .assistance{
-      margin: 0%;
-    }
-
     footer .liste apropos{
       justify-content: center;
     }
-
-    
-    
-    
-    
-      
-
-    
-
-
     .Activites_a_Marseille{
       width: 100%;
-      height: auto;
-      
-      
+      height: auto; 
     }
-
     .parent{
-      display: flex;
-        flex-direction: column;
-          width: 90%;
-          height: auto;
-            
-          
+      flex-direction: column;
+      width: 90%;
+      height: auto;      
     }
-
     .Activites_1{
-      display: flex;
       flex-direction: column;
       width: 100%;
-      height: auto;
-      
+      height: auto; 
     }
-
     .Activites_2{
-      display: flex;
       flex-direction: column;
       width: 100%;
       height: auto;
     }
-
-    
-
-    .bloc_1{
+    .bloc_1, .bloc_2, .bloc_3, .bloc_4{
       width: 100%;
       height: auto;
     }
-    
-
-    .bloc_2{
-      width: 100%;
-      height: auto;
-      
-    }
-
-    .bloc_3{
-      width: 100%;
-      height: auto;
-      
-    }
-
-    .bloc_4{
-      width: 100%;
+    .Activites_image_1, .Activites_image_2, .Activites_image_3, .Activites_image_4{
       height: auto;
     }
-
-    .Activites_image_1{
+    .border_image_2, .border_image_3{
       height: auto;
     }
-
-    .Activites_image_2{
+    .image4, .image5{
       height: auto;
     }
-
-    .Activites_image_3{
-      height: auto;
-    }
-
-    .Activites_image_4{
-      height: auto;
-    }
-
-    .border_image_2{
-      height: auto;
-    }
-
-    .border_image_3{
-      height: auto;
-    }
-
-    .image4{
-      height: auto;
-    }
-
-    .image5{
-      height: auto;
-    }
-
-    .border_image_1{
+    .border_image_1,.bordureimage3,.bordureimage32 {
       height: 200px;
     }
-
-    .bordureimage3{
+    .image, .image44, .image55{
       height: 200px;
     }
-
-    .bordureimage32{
-      height: 200px;
-    }
-
-    .image{
-      height: 200px;
-    }
-
-    .image44{
-      height: 200px;
-    }
-
-    .image55{
-      height: 200px;
-    }
-
 }
 
 
 
 
 
+
+changer la hauteur de toute les aaactivite en px (PAS FAIT)
+faire les liens sur chaque vignette # et a (PAS FAIT)
+
+changer la couleur icone rechercher bleu a noscript (FAIT)
+
+objectif cover sur chaque image du site (FAIT)
+
+animaux autorisé width a mettre pour aggrandir (FAIT MAIS A VERIFIER)
+
+flex wrap a mettre aux filtres pour qu'ils se mettentt a la ligne 
+
+changer les ligne 480 etc pour passer directe smartphone a tablette (FAIT)
+
+enlever display flex dans chaque media queries (FAIT)
 
 
 
