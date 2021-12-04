@@ -205,7 +205,7 @@ nav a:hover{
 }
 
 .animaux_1{
-  width: 100%;
+  width: 185px;
 }
 
 
@@ -389,9 +389,12 @@ nav a:hover{
   border-bottom-left-radius: 25px;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
+  margin: 4%;
+}
+
+.hotel_lien{
   width: 90%;
   height: 30%;
-  margin: 4%;
 }
 
 .hotel_images {
