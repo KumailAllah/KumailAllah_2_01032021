@@ -395,6 +395,7 @@ nav a:hover{
 .hotel_lien{
   width: 90%;
   height: 30%;
+  color: black;
 }
 
 .hotel_images {
@@ -467,6 +468,12 @@ nav a:hover{
   height: 100%;
   display: flex;
   justify-content: space-around;
+}
+
+.activite_lien{
+  width: 100%;
+  display: flex;
+  color: black;
 }
 
 .Activites_2 {
@@ -1022,28 +1029,6 @@ footer a{
       height: 200px;
     }
 }
-
-
-
-
-
-
-changer la hauteur de toute les aaactivite en px (PAS FAIT)
-faire les liens sur chaque vignette # et a (PAS FAIT)
-
-changer la couleur icone rechercher bleu a noscript (FAIT)
-
-objectif cover sur chaque image du site (FAIT)
-
-animaux autorisé width a mettre pour aggrandir (FAIT MAIS A VERIFIER)
-
-flex wrap a mettre aux filtres pour qu'ils se mettentt a la ligne 
-
-changer les ligne 480 etc pour passer directe smartphone a tablette (FAIT)
-
-enlever display flex dans chaque media queries (FAIT)
-
-
 
 
 
