@@ -736,28 +736,21 @@ nav a:hover{
 /*-- Le pied de page --*/
 
 footer {
-  
   width: 100%;
   background-color: #f2f2f2;
   text-align: justify;
   display: flex;
-  
 }
 
 .apropos{
 margin-left: 40px;
 }
-
 .noshebergement{
   margin-left: 200px;
 }
-
 .assistance{
   margin-left: 200px;
 }
-
-
-
 .liste ul{
   list-style: none;
 }
@@ -765,12 +758,9 @@ margin-left: 40px;
 footer ul{
   padding-left: 0;
 }
-
 footer a{
   color: black;
 }
-
-
 
 
 @media all and (max-width: 500px) {
