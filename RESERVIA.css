@@ -390,6 +390,7 @@ nav a:hover{
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
   margin: 4%;
+
 }
 
 .hotel_lien{
@@ -403,6 +404,8 @@ nav a:hover{
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   width: 30%;
+  height: 100px;
+  
 }
 
 .hotel_texte {
