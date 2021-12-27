@@ -381,7 +381,7 @@ nav a:hover{
   align-items: center;
 }
 
-.hotel {
+.Hotel {
   display: flex;
   justify-content: center;
   border: 3px solid white;
@@ -404,7 +404,7 @@ nav a:hover{
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   width: 30%;
-  height: 100px;
+  height: 113px;
   
 }
 
@@ -427,7 +427,7 @@ nav a:hover{
   padding: 5%;
 }
 
-#hotel_le_soleil {
+#Hotel_le_soleil {
   background-image: url("IMAGE/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
   background-size: cover;
   background-position: center;
@@ -437,6 +437,7 @@ nav a:hover{
   background-image: url("IMAGE/aw-creative-VGs8z60yT2c-unsplash 2.jpg");
   background-position: center;
   background-size: cover;
+  height: 134px;
 }
 
 #tout_bleu {
