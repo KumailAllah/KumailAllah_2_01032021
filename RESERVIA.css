@@ -134,6 +134,7 @@ nav a:hover{
 }
 .B{
   display: flex;
+  flex-wrap: wrap;
 }
 .Filtres{
   font-size: 1em;
@@ -596,7 +597,6 @@ nav a:hover{
   border-top-right-radius: 25px;
   width: 100%;
   height: 75%;
-  object-fit: cover;
 }
 
 .bordureimage3 img{
@@ -604,6 +604,7 @@ nav a:hover{
   border-top-left-radius: 25px;
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 #bordureimage33 {
